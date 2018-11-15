@@ -12,7 +12,7 @@ https://github.com/jjanousek/Pacman_cw1/blob/master/cw1_Report.pdf
 In this coursework, Pacman has only partial observability of his environment. I implemented the Breadth-First Search algorithm to find paths to the nearest food capsules and to evade ghosts.
 
 ## How to start a game using my PartialAgent
-cd into your Pacman folder and start with the command below:
+cd into your local Pacman folder and start with the terminal command below:
 
 `python pacman.py --pacman PartialAgent --layout mediumClassic --numGames 50`
 

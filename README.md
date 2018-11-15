@@ -13,7 +13,8 @@ In this coursework, Pacman has only partial observability of his environment. I 
 
 ## How to start a game using my PartialAgent
 cd into your Pacman folder and start with the command below:
-python pacman.py --pacman PartialAgent --layout mediumClassic --numGames 50
+
+`python pacman.py --pacman PartialAgent --layout mediumClassic --numGames 50`
 
 ## Course work instructions
 ## 1. Introduction

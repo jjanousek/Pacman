@@ -9,7 +9,11 @@ https://github.com/jjanousek/Pacman_cw1/blob/master/cw1_Report.pdf
 
 ## Executive Summary
 
-In this coursework, Pacman only has partial observability of his environment. I implemented the Breadth-First Search algorithm to find a path to the closest food capsules and to evade ghosts.
+In this coursework, Pacman has only partial observability of his environment. I implemented the Breadth-First Search algorithm to find paths to the nearest food capsules and to evade ghosts.
+
+## How to start a game using my PartialAgent
+cd into your Pacman folder and start with the command below:
+python pacman.py --pacman PartialAgent --layout mediumClassic --numGames 50
 
 ## Course work instructions
 ## 1. Introduction
@@ -54,3 +58,4 @@ Remember, when doing this, that there is credit for creative and beautiful solut
 Having said that, reports that are needlessly long will not get any more credit. We value concise reports (we have to read a lot of them). Your report should also analyse the performance of your code. Because there is a certain amount of randomness in the behaviour of the ghosts, a good analysis will run multiple games to assess Pacman’s performance. For example, you might like to try running:
 python pacman.py -n 50 -p PartialAgent -l mediumClassic
 to get a statistically significant number of runs. (Of course, to decide whether this was a statistically significant number of runs, you would have to do some statistical analysis — it might well need more runs.) All the conclusions that you present in your analysis should be justified by the data that you have collected.
+

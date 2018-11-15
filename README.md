@@ -1,9 +1,17 @@
 # Pacman
 Code I submitted as part of my course work in my Artificial Intelligence course at King's College.
+
 My code can be found in the file partialAgents.py
-My report can be found in cw1_report.pdf
 
+## Report
 
+https://github.com/jjanousek/Pacman_cw1/blob/master/cw1_Report.pdf
+
+## Executive Summary
+
+In this coursework, Pacman only has partial observability of his environment. I implemented the Breadth-First Search algorithm to find a path to the closest food capsules and to evade ghosts.
+
+## Course work instructions
 ## 1. Introduction
 
 This coursework exercise asks you to write code to control Pacman in the standard grid that we used for the practical exercises.

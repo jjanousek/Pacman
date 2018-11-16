@@ -9,7 +9,8 @@ https://github.com/jjanousek/Pacman_cw1/blob/master/cw1_Report.pdf
 
 ## Executive Summary
 
-In this coursework, Pacman has only partial observability of his environment. I implemented the Breadth-First Search algorithm to find paths to the nearest food capsules and to evade ghosts.
+In this coursework, Pacman has only partial observability of his environment. He can only see 5 steps ahead, 1 step to the side, if there is no wall, and he can see ghosts when they are 2 steps behind or 5 steps ahead and no wall obstructs Pacman's view. The visibility is comparable with someone being dropped into an actual maze (or corn maze). 
+My PartialAgent consists of multiple components: (1) A Breadth-First Search algorithm that looks for the closest ghost and how to evade him. (2) A Breadth-First Search algorithm that guides Pacman to the closest food capsule (2) A third Breadth-First search algorithm in combination with a map building operation that guides Pacman to look for food in unvisited locations. The aim of my Pacman Agent is to maximize the Agent's win rate and be flexible enough to succeed on unknown maps.
 
 ## How to start a game using my PartialAgent
 cd into your local Pacman folder and start with the terminal command below:
